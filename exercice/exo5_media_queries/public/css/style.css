@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+div{
+    display: inline-block;
+}
+
+.rouge{
+    background-color: red;
+}
+
+.vert{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+@media screen and (min-width:1024px) {
+    .rouge{
+        padding-top: 33%;
+        width: 33%;
+    }
+
+    .vert{
+        padding-top: 33%;
+        width: 33%;
+    }
+
+    .orange{
+        padding-top: 33%;
+        width: 33%;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1024px) {
+    .rouge{
+        padding-top: 50%;
+        width: 49%;
+    }
+
+    .vert{
+        padding-top: 50%;
+        width: 49%;
+    }
+
+    .orange{
+        padding-top: 50%;
+        width: 49%;
+    }
+
+    
+}
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    .rouge{
+        padding-top: 100%;
+        width: 100%;
+    }
+
+    .vert{
+        padding-top: 100%;
+        width: 100%;
+    }
+
+    .orange{
+        padding-top: 100%;
+        width: 100%;
+    }
+}

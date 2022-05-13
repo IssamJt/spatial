@@ -1,0 +1,17 @@
+h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: red;
+}
+
+#underline{
+    text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+div {
+  animation: squaremove 2s 10 forwards ;
+  animation-direction: alternate;
+}
+
+div:hover{
+  animation-play-state: paused;
+}
+@keyframes squaremove {
+    0%{
+      transform: translateX(100%);
+    }
+    25%{
+      transform: translateX(100%) translateY(100%);
+    }
+    50%{
+      transform: translateY(100%);
+    }
+    75%{
+      transform: translateX(0%);
+    }
+    100%{
+      transform: translateX(0%) translateX(100%);
+    }
+}
+
+h2{
+  animation: bounce 500ms infinite alternate;
+}
+
+@keyframes bounce {
+  0%{
+    margin-top: 0px; margin-left: 50px;
+  }
+  100%{
+    font-size: 20px; 
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+}

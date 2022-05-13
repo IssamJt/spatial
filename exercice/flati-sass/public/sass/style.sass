@@ -1,0 +1,249 @@
+*
+    margin:0
+
+
+header
+        background-color: #363b47
+        color: white
+        height: 9vh
+        display: flex
+        justify-content: space-evenly
+        #headerdiv1
+            margin: auto
+        nav
+            display: flex
+            margin: auto
+            width: 30%
+            ul
+                display: flex
+                color: #7a878f
+                gap: 1%
+                li
+                    margin-top: 8% 
+                    padding: 4% 4% 5% 4%
+                    display: flex
+                    list-style: none
+                    font-size: 80%
+                    a
+                        text-decoration: none
+                        color: #7a878f
+                    &:hover
+                        background-color: #3676bb
+                        color: white
+                        border-radius: 4%
+                        
+.section1
+    img
+        height: 55vh
+        width: 100%
+
+.section2
+    background-color: #e8e6e0
+    margin-top: -0.5%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    text-align: center
+    padding: 4%
+    p
+        width: 55%
+        margin-left: 25%
+        color: #7a878f
+        font-size: 140%
+        .bg
+            background-color: #26a2cc
+            color: white
+        .color
+            font-weight: bolder
+        .bolder
+            font-weight: bolder
+.section3
+    height: 50vh
+    .cards
+        margin-top: 3%
+        display: flex
+        justify-content: center
+        gap: 3%
+        .i
+            margin: auto
+        .c1
+            width: 15%
+            padding: 2% 0%
+            display: flex
+            flex-direction: column
+            border-radius: 4%
+            gap: 10%
+            text-align: center
+            background-color: #e8e6e0
+            p
+                width: 80%
+                margin-left: 10%
+.color
+    color: #26a2cc
+.fi
+    border: 2px
+    font-size: 100%
+    margin-left: 20%
+    display: flex
+    gap:1%
+
+.section4
+    display: flex
+    width: 100%
+    gap: 2%
+    height: 50vh
+    .section4div1
+        display: flex
+        justify-content: center
+        text-align: center
+        flex-direction: column
+        height: auto
+        width: 44%
+        button
+            width: 10%
+            margin-left: 35%
+            background-color: #26a2cc
+            border: none
+            color: white
+            border-radius: 4%
+            padding: 1%
+
+        h1
+            text-align: center
+            margin-top: -15%
+            margin-left: -8%
+        p
+            margin: 10px
+            width: 60%
+            margin-left: 35%
+            text-align: left
+    .section4container
+        display: flex
+        width: 42.5%
+        height:33vh
+        gap: 0.5%
+        .section4div2
+            background-color: #38485f
+            display: flex
+            flex-direction: column
+            width: 30%
+            text-align: center
+            h4
+                color: white
+                padding: 8% 0
+            img
+                width: 100%
+
+footer
+    background-color: #3676bb
+    text-align: center
+    color: #b0c5dc
+    margin-top: 5%
+    height: 30vh
+    width: 100%
+    display: inline-block
+    justify-content: space-evenly
+    h3,p,i
+        margin-top: 2%
+    
+.footerb
+    text-align: center
+    background-color: rgba(54,59,71,255)
+    width: 100%
+    height: 40px
+    padding-top: 20px
+    color: rgba(119,150,197,255)
+.icon
+    margin-bottom: 1%
+    display: flex
+    margin-left:25%
+    width: 40%
+    i
+        background-color: #3676bb
+
+@media screen and (min-width:768px) and (max-width: 1023px) 
+    header
+        height: 30vh
+        flex-direction: column
+        nav
+            margin-left: 15%
+    
+    .section3
+        height: 130vh
+        .cards
+            flex-direction: column
+            .c1
+                width: 100%
+                margin: 1%
+    
+    .section4
+        flex-direction: column
+        height: 170vh
+        .section4div1
+            width: 100%
+            height: 20vh
+            margin-left: -10%
+            button
+                margin-left: 55%
+            h1
+                margin-left: 20%
+        .section4container
+            height: 150vh
+            width: 100%
+            flex-direction: column
+            justify-content: center
+            margin: 5%
+            margin-left: 30%
+            .section4div2
+                width: 40%
+    .icon
+        width: 72%
+
+@media screen and (min-width: 320px) and (max-width: 767px)
+    header
+        height: 50vh
+        flex-direction: column
+        nav
+            margin-left: 30%
+            ul
+                flex-direction: column
+                text-align: center
+    .section3
+        height: 140vh
+        .cards
+            flex-direction: column
+            .c1
+                width: 100%
+                margin: 3% 0
+    .section4
+        flex-direction: column
+        height: 190vh
+        .section4div1
+            width: 100%
+            height: 10vh
+            margin: 2% 0
+            margin-left: -10%
+            button
+                margin-left: 35%
+                width: 50%
+            h1
+                margin-left: 20%
+        .section4container
+            height: 180vh
+            width: 100%
+            flex-direction: column
+            justify-content: center
+            margin: 3%
+            margin-left: 0%
+            .section4div2
+                width: 100%
+                margin: 4% 0
+
+    footer
+        height: 35vh
+        .icon
+            width: 38%
+            margin-top: 7%
+
+
+

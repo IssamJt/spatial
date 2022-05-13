@@ -1,0 +1,81 @@
+/* le premier exercice */
+
+.exo1{
+    position: relative;
+    display: inline-block;
+  }
+
+  .exo1:after {
+      /* la ligne rouge et son contenu */
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    /* d'ou la ligne rouge commence (l b w) */
+    height: 2px;
+    /* la taille de la ligne rouge */
+    background: red;
+    transition: width 500ms ease;
+  }
+  .exo1:hover:after {
+    width: 100%;
+  }
+
+
+/* le deuxieme exercice */
+
+.exo2{
+    position: relative;
+    display: inline-block;
+}
+
+
+.exo2:hover:after {
+    position: absolute;
+    display: block;
+    content: '';
+    /* quand ca se remplie de rouge quesqui s'affiche */
+    width: 100%;
+    height: 2px;
+    /* la longeur et la largeur de la ligne rouge par rapport au block */
+    background: red;
+    animation: slide 500ms;
+    /* le temps que la bande rouge mets pour s'afficher */
+  }
+
+  @keyframes slide {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+
+
+  /* le 3ieme exrecice */
+
+  .exo3{
+    position: relative;
+    /* pour que le contenu reste dans le block */
+    display: inline-block;
+    /* c'est pour que ce soit un petit carré (block) et pas 100% de la width: ; */
+}
+
+.exo3:before{
+    content: '';
+    /* quand ca se remplie de rouge quesqui s'affiche */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: scaley(0);
+    background-color: red;
+    transition: 500ms;
+    /* le temps que la bande rouge mets pour s'afficher */
+    transform-origin: bottom;
+    /* d'ou commence la bande rouge? */
+    z-index: -1;
+    /* l'importance que la bande rouge a par rapport au h1 */
+}
+.exo3:hover:before{
+    transform: scaleY(1);
+    z-index: -1;
+    /* l'importance que la bande rouge a par rapport au h1 */
+}

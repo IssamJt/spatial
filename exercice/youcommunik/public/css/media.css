@@ -1,0 +1,242 @@
+@media screen and (min-width:320px) and (max-width: 768px) {
+    body {
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+
+    header {
+        height: 70vh;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav {
+        margin-left: -7%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section:nth-of-type(1) {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section:nth-of-type(1) img {
+        margin-left: 20%;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .section2 .divimg2 {
+        margin-top: 8%;
+        margin-left: 30%;
+    }
+
+    .section2 img {
+        width: 60%;
+    }
+
+    .txtsct2 {
+        justify-content: center;
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .txtsct2 h1 {
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px 40px;
+        margin-left: 5%;
+    }
+
+    .txtsct2 p {
+        width: 100%;
+        margin-top: 5%;
+        justify-content: center;
+        text-align: center;
+        margin-left: -10%;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .flex2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    #img {
+        margin-left: -140px;
+        width: 200%;
+    }
+
+    #img2 {
+        margin-left: -10px;
+        width: 70%;
+    }
+
+    #img3 {
+        margin-left: -10px;
+        width: 200%;
+    }
+
+    .section3c {
+        height: 90vh;
+    }
+
+    footer .flex img {
+        width: 10%;
+    }
+
+    footer .flex2 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    footer .flex3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    footer .column1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .flex3 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .b {
+        margin-left: 70%;
+        width: 80%;
+    }
+
+    footer .column2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    body {
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+
+    header {
+        height: 70vh;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav {
+        margin-left: -7%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section:nth-of-type(1) {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section:nth-of-type(1) img {
+        margin-left: 20%;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .section2 .divimg2 {
+        margin-top: 8%;
+        margin-left: 30%;
+    }
+
+    .section2 img {
+        width: 60%;
+    }
+
+    .txtsct2 {
+        justify-content: center;
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .txtsct2 h1 {
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px 40px;
+        margin-left: 5%;
+    }
+
+    .txtsct2 p {
+        width: 100%;
+        margin-top: 5%;
+        justify-content: center;
+        text-align: center;
+        margin-left: -10%;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+footer > div img  {
+     width: 10px;
+     height: auto;
+ }
+
+}
